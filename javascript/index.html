@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-language" content="ja">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>楽天スーパーSALE</title>
+
+    <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&amp;family=Noto+Sans+JP:wght@100..900&amp;display=swap" rel="stylesheet">
+
+    <script src="./js/csv.js" defer></script>
+    <script src="./js/search.js" defer></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-76667417-2"></script>
+
+
+</head>
+<body>
+<main>
+    <article id="category">
+        <section class="category_content">
+            <h2 class="titel">カテゴリを選んで検索</h2>
+            
+            <div class="select">
+                <ul class="select_menu">
+                    <li class="select_menu-item is-active" data-tab="items">全商品</li>
+                    <li class="select_menu-item" data-tab="skate">スケボー</li>
+                    <li class="select_menu-item" data-tab="parts">スケボーパーツ</li>
+                    <li class="select_menu-item" data-tab="apparel">アパレル</li>
+                    <li class="select_menu-item" data-tab="snow">スノー</li>
+                    <li class="select_menu-item" data-tab="protector">保護具</li>
+                    <li class="select_menu-item" data-tab="other">その他</li>
+                </ul>
+            </div>
+
+
+
+            <ul class="itemarea container" id="js-csv"></ul>
+
+        </section>
+    </article>
+
+</main>
+</body>
+</html>

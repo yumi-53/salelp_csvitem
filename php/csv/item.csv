@@ -1,0 +1,5 @@
+カテゴリ,リンク,画像URL,商品名,商品説明,元値,SALE値,フリーアイコンclass名,フリーアイコン表示内容,送料無料アイコンclass名,クーポンアイコンclass名
+キックボード,#,test.jpg,商品A,aaa,10000,9000,discount,10%OFF,carriage,coupon
+スケートボード,,test.jpg,商品B,bbb,10000,9000,discount,15%OFF,,
+キックボード,,test.jpg,商品C,ccc,10000,9000,point,POINT10,,
+インライン,,test.jpg,商品D,,10000,9000,discount,20%OFF,,
